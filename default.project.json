@@ -1,0 +1,93 @@
+{
+  "name": "RobloxGameProject",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+
+      "AdminScripts": {
+        "$className": "Folder",
+
+        "AdminActions": {
+          "$path": "src/server/AdminScripts/AdminActions.server.lua"
+        },
+        "AdminCommandHandler": {
+          "$path": "src/server/AdminScripts/AdminCommandHandler.server.lua"
+        },
+        "AdminDataService": {
+          "$path": "src/server/AdminScripts/AdminDataService.server.lua"
+        },
+        "AdminItemService": {
+          "$path": "src/server/AdminScripts/AdminItemService.server.lua"
+        },
+        "AdminUiGate": {
+          "$path": "src/server/AdminScripts/AdminUiGate.server.lua"
+        },
+        "AdminUiProvision": {
+          "$path": "src/server/AdminScripts/AdminUiProvision.server.lua"
+        }
+      },
+
+      "GamePassOwnership": {
+        "$path": "src/server/GamePassOwnership.server.lua"
+      },
+
+      "GlobalDonatedLeaderboard": {
+        "$path": "src/server/GlobalDonatedLeaderboard.server.lua"
+      },
+
+      "GlobalRaisedLeaderboard": {
+        "$path": "src/server/GlobalRaisedLeaderboard.server.lua"
+      },
+
+      "GlobalShardLeaderboard": {
+        "$path": "src/server/GlobalShardLeaderboard.server.lua"
+      },
+
+      "HideDefaultHumanoidOverhead": {
+        "$path": "src/server/HideDefaultHumanoidOverhead.server.lua"
+      },
+
+      "NoPlayerCollision": {
+        "$path": "src/server/NoPlayerCollision.server.lua"
+      },
+
+      "OverheadTags": {
+        "$path": "src/server/OverheadTags.server.lua"
+      },
+
+      "PlaytimeLeaderboard": {
+        "$path": "src/server/PlaytimeLeaderboard.server.lua"
+      },
+
+      "PlaytimeTotalMinutes": {
+        "$path": "src/server/PlaytimeTotalMinutes.server.lua"
+      },
+
+      "RoleButtonPermissions": {
+        "$path": "src/server/RoleButtonPermissions.server.lua"
+      },
+
+      "ShardSystem": {
+        "$path": "src/server/ShardSystem.server.lua"
+      },
+
+      "TipJarGiveTest": {
+        "$path": "src/server/TipJarGiveTest.server.lua"
+      },
+
+      "TipJarServer": {
+        "$path": "src/server/TipJarServer.server.lua"
+      },
+
+      "Permissions": {
+        "$path": "src/server/Permissions.lua"
+      },
+
+      "ShardService": {
+        "$path": "src/server/ShardService.lua"
+      }
+    }
+  }
+}
